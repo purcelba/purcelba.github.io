@@ -289,6 +289,63 @@ footer {
   text-align: center;
 }
 
+//
+// Tables
+//
+.post table,
+.entry table {
+  width: auto;
+  max-width: 100%;
+  margin: 24px auto;
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-family: $helveticaNeue;
+  font-size: 15px;
+  line-height: 1.45;
+  color: $darkerGray;
+  background-color: $white;
+  border: 1px solid #e1e4e8;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+  overflow: hidden;
+}
+
+.post table th,
+.entry table th {
+  padding: 10px 16px;
+  text-align: left;
+  font-weight: 600;
+  color: $darkerGray;
+  background-color: #f6f8fa;
+  border-bottom: 2px solid #e1e4e8;
+  white-space: nowrap;
+}
+
+.post table td,
+.entry table td {
+  padding: 10px 16px;
+  border-top: 1px solid #eaecef;
+  vertical-align: top;
+}
+
+.post table tbody tr:nth-child(even) td,
+.entry table tbody tr:nth-child(even) td {
+  background-color: #fafbfc;
+}
+
+.post table tbody tr:hover td,
+.entry table tbody tr:hover td {
+  background-color: #f1f4f8;
+}
+
+@include mobile {
+  .post table,
+  .entry table {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
