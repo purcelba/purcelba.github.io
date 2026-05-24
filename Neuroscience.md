@@ -3,13 +3,13 @@ layout: page
 title: Neuroscience research
 permalink: /Neuroscience/
 ---
-I study how the brain combines different types of information to make decisions.  I develop models that explain the computations that support decision making and design behavioral experiments to validate model predictions.  I test how the brain could implement those computations by recording from large populations of neurons and use machine-learning algorithms to visualize neural states and predict upcoming choices.  
+I studied how the brain combines different types of information to make decisions.  I developed models that explain the computations that support decision making and designed behavioral experiments to validate model predictions.  I tested how the brain could implement those computations by recording from large populations of neurons and used machine-learning algorithms to visualize neural states and predict upcoming choices.  
 
 ___
 
 ## Neural Models of Decision Making
 
-I developed neural computational models of decision making for my PhD thesis.  My models use neural time-series data recorded from macaque monkeys making visual decisions as input to shallow artificial neural networks.  The models predict the monkey's choices and response times and reproduce the dynamics of actual neural populations.  You can find an overview the modeling framework and sample code in the [gated_accumulator_model](https://github.com/purcelba/gated_accumulator_model) repository or read more about the details in the papers listed below.
+I developed neural computational models of decision making for my PhD thesis.  My models used neural time-series data recorded from macaque monkeys making visual decisions as input to shallow artificial neural networks.  The models predicted the monkey's choices and response times and reproduced the dynamics of actual neural populations.  You can find an overview the modeling framework and sample code in the [gated_accumulator_model](https://github.com/purcelba/gated_accumulator_model) repository or read more about the details in the papers listed below.
 
 **Collaborators:** Thomas Palmeri, Jeffrey Schall, Gordon Logan, Richard Heitz, Jeremiah Cohen (Vanderbilt University)
 
@@ -55,7 +55,7 @@ I combined human psychophysical experiments, computational models of behavior, a
 
 ___
 
-I developed a new computational model to understand flexible decision making in a dynamic environment.  In a changing environment, we must decide whether errors result from poor choices or a change in the environment.  The Bayes optimal solution is to treat negative outcomes as evidence for a change of environment and to weight that evidence by the confidence in our choice.  I developed a model that showed how humans could approximate the optimal solution using very simple computations and developed a psychophysics experiment to test the model predictions. I showed that the model accurately predicts human choices and quantitatively outperforms plausible alternatives.
+I developed a new computational model to understand flexible decision making in a dynamic environment.  In a changing environment, we must decide whether errors result from poor choices or a change in the environment.  The Bayes optimal solution is to treat negative outcomes as evidence for a change of environment and to weight that evidence by the confidence in our choice.  I developed a model that showed how humans could approximate the optimal solution using very simple computations and developed a psychophysics experiment to test the model predictions. I showed that the model accurately predicted human choices and quantitatively outperformed plausible alternatives.
 
 **Collaborator:** Roozbeh Kiani (New York University)
 
@@ -76,7 +76,7 @@ ___
 
 ## Predicting Choices from Large-Scale Neural Recordings
 
-I use state-of-the-art electrophysiology technology to simultaneously record activity from hundreds of neurons in multiple areas of the primate brain.  I record neural activity while monkeys make decisions based on visual information.  I use dimensionality reduction methods to visualize the evolution of neural states during decision formation. I use linear classifiers to decode the information represented in different brain region and to predict the upcoming choices. I study the correlation structure of signals within and across areas to to understand neural interactions.  My results from this project will be presented at the [Society for Neuroscience Annual Meeting](https://www.sfn.org/annual-meeting/neuroscience-2017) this fall.
+I used state-of-the-art electrophysiology technology to simultaneously record activity from hundreds of neurons in multiple areas of the primate brain.  I recorded neural activity while monkeys made decisions based on visual information.  I used dimensionality reduction methods to visualize the evolution of neural states during decision formation. I used linear classifiers to decode the information represented in different brain regions and to predict the upcoming choices. I studied the correlation structure of signals within and across areas to understand neural interactions.  I presented results from this project at the [Society for Neuroscience Annual Meeting](https://www.sfn.org/annual-meeting/neuroscience-2017).
 
 **Collaborator:** Roozbeh Kiani (New York University)
 
@@ -88,7 +88,7 @@ I use state-of-the-art electrophysiology technology to simultaneously record act
 ___
 ## Neurophysiological Representations of Visual Salience
 
-In two studies, I recorded activity from neurons in medial and lateral frontal cortex of monkeys trained to perform a visual search task in which they located a target item among distractors (e.g., red circle among green circles).  I used auROC curves and other analyses to quantify the information about object identity carried by individual neurons.  I found that lateral frontal cortex robustly represents the location of the target, but medial frontal corext did not.  Instead, medial frontal cortex seems to play a role in signaling feedback.
+In two studies, I recorded activity from neurons in medial and lateral frontal cortex of monkeys trained to perform a visual search task in which they located a target item among distractors (e.g., red circle among green circles).  I used auROC curves and other analyses to quantify the information about object identity carried by individual neurons.  I found that lateral frontal cortex robustly represented the location of the target, but medial frontal cortex did not.  Instead, medial frontal cortex seemed to play a role in signaling feedback.
 
 **Collaborators:** Polly Weigand, Jeffrey Schall, Richard Heitz, Jeremiah Cohen (Vanderbilt University)
 
@@ -104,7 +104,7 @@ In two studies, I recorded activity from neurons in medial and lateral frontal c
 ___
 ## Homologous Neural Mechanisms of Visual Attention and Working Memory in Humans and Non-Human Primates
 
-I collaborated with Goeff Woodman to conduct two studies of electroencephalogram (EEG) recordings - brain activity recorded from the surface of the head that can be used to index cognitive states.  My work helped to establish a non-human primate model of EEG components associated with visual attention and working memory.  By pairing EEG from outside the skull with recordings of neural activity from inside the brain, we could study how neural activity gives rise to observed EEG.  We showed how frontal cortex indirectly contributes to the generation of attention and memory related EEG signals.  You can read more about this work in the papers below or check out [Geoff's website](http://www.psy.vanderbilt.edu/faculty/woodman/) for more information about his awesome work.
+I collaborated with Goeff Woodman to conduct two studies of electroencephalogram (EEG) recordings - brain activity recorded from the surface of the head that can be used to index cognitive states.  My work helped to establish a non-human primate model of EEG components associated with visual attention and working memory.  By pairing EEG from outside the skull with recordings of neural activity from inside the brain, we could study how neural activity gives rise to observed EEG.  We showed how frontal cortex indirectly contributed to the generation of attention and memory related EEG signals.  You can read more about this work in the papers below or check out [Geoff's website](http://www.psy.vanderbilt.edu/faculty/woodman/) for more information about his awesome work.
 
 **Collaborators:** Geoff Woodman, Rob Reihardt, Jeffrey Schall, Richard Heitz, Polly Weigand (Vanderbilt University)
 
